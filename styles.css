@@ -1,0 +1,71 @@
+/* Estilo básico para o corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 50px;
+    margin: 0;
+}
+
+/* Estilo para o container principal */
+.container {
+    background-color: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+}
+
+/* Estilo para os grupos de formulário */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilo para os rótulos */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para os campos de entrada e seletores */
+input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilo para o botão de conversão */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Estilo ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para o resultado */
+.result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Estilo para o texto de resultado */
+#resultText {
+    font-size: 18px;
+    color: #333;
+}
